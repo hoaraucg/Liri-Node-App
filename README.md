@@ -28,19 +28,19 @@ After installing all of the NPM Packages above, create a .env file with your spo
 
 Liri takes in two inputs from the user in the node command line. The first is the proces you are interested in using, followed by your particular search term. 
 
-* concert-this <Band Name> - Will scour the BandsinTown API for your bands next 5 touring shows. Will return nothing if they do not have any shows actively coming.
+* ###concert-this "Band Name" - ####Will scour the BandsinTown API for your bands next 5 touring shows. Will return nothing if they do not have any shows actively coming.
   
     ![BandsImage](/assets/images/concert.png)
   
-* spotify-this-song <Song Name> - Will attempt to find your particular song choice through the Node Spotify API. Will return 5 closest matches. If song is available on multiple albums, this will also offer you Album Choice. If no song choice is input, this will return results for the song "The Sign", By Ace of Base.
+* ###spotify-this-song "Song Name" - ####Will attempt to find your particular song choice through the Node Spotify API. Will return 5 closest matches. If song is available on multiple albums, this will also offer you Album Choice. If no song choice is input, this will return results for the song "The Sign", By Ace of Base.
   
     ![SpotifyImage](/assets/images/spotify.png)
   
-* movie-this <Movie Title> - Searches through the OMDB API for closest match. Will return useful info about your movie. If no Movie is selected, this will automatically conduct a search for "Mr. Nobody". It's a great movie, you should really watch it if you haven't.
+* ###movie-this "Movie Title" - ####Searches through the OMDB API for closest match. Will return useful info about your movie. If no Movie is selected, this will automatically conduct a search for "Mr. Nobody". It's a great movie, you should really watch it if you haven't.
   
     ![MovieImage](/assets/images/movie.png)
     
-* do-what-it-says - This requires no secondary user input. It will scour the random.txt file, and use the Process and Input from that file to complete one of the three previous commands. Currently set to spotify-this-song "I want it that way".
+* ###do-what-it-says - ####This requires no secondary user input. It will scour the random.txt file, and use the Process and Input from that file to complete one of the three previous commands. Currently set to spotify-this-song "I want it that way".
 
     ![doitImage](/assets/images/doit.png)
 
