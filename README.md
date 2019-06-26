@@ -48,7 +48,7 @@ Liri takes in two inputs from the user in the node command line. The first is th
 ### Logging
 ---
 
-Liri will also log all of your searches to the log.txt file located in the repository. Never worry about having to research for any of your favorites, they'll always be saved!
+Liri will also log all of your searches to the log.txt file located in the repository. Never worry about having to re-search for any of your favorites, they'll always be saved!
 
 ## Copyright
 ---
