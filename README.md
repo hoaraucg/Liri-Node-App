@@ -17,6 +17,7 @@ Liri is coded in Javascript and makes use of Node.js for CLI interaction.
 * Axios - Used for it's methods in retrieving data from both OMDB and BandsinTown API's.
 * DotENV - Environment file used to securely save API Key data locally.
 * fs - NPM Package allowing for file system access.
+* Moment - Momentjs NPM Package that allows for adjusting Date/Time values to global standards.
   
     * After cloning this repository, type *npm install* to install the packages locally so that they may be used.
     
