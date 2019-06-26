@@ -24,8 +24,8 @@ Liri is coded in Javascript and makes use of Node.js for CLI interaction.
 ### How to use this Application
 ---
 
-*As a user, you must provide your own Spotify API Key in order to successfully make use of Liri.
-After installing all of the NPM Packages above, create a .env file with your spotify API key and Secret to fully make use of this application*
+***As a user, you must provide your own Spotify API Key in order to successfully make use of Liri.
+After installing all of the NPM Packages above, create a .env file with your spotify API key and Secret to fully make use of this application***
 
 Liri takes in two inputs from the user in the node command line. The first is the proces you are interested in using, followed by your particular search term. 
 
