@@ -6,10 +6,7 @@ var fs = require("fs");
 var dotenv = require("dotenv");
 var Spotify = require('node-spotify-api');
 var axios = require("axios");
-var spotify = new Spotify({
-    id: "4749cd81a9ce429086332d54da77ca81",
-    secret: "ce83e60add85498d858019f691c35b3d"
-});
+var spotify = new Spotify(keys.spotify);
 var moment = require('moment');
 moment().format();
 
